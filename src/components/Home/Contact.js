@@ -11,7 +11,7 @@ export default function Contact() {
                         <form action="https://formspree.io/xwkraeaw" method="POST">
                             <div className="form-group">
                                 <label htmlFor="name">Name</label>
-                                <input type="text" className="form-control" name="name" id="name" placeholder="Renato Seiji"/>
+                                <input type="text" className="form-control" name="name" id="name" placeholder="Your name"/>
                             </div>
 
                             <div className="form-group">

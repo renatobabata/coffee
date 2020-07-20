@@ -63,7 +63,7 @@ export default class Menu extends Component{
                             return(
                                 <div key={node.id} className="col-11 col-md-6 my-3 d-flex mx-auto">
                                     <div>    
-                                        <Img fixed={node.image.fixed}/>
+                                        <Img fluid={node.image.fluid}/>
                                     </div>
                                     <div className="flex-grow-1 px-3">
                                         <div className="d-flex justify-content-between">

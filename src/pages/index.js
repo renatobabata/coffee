@@ -14,9 +14,6 @@ const IndexPage = ({data}) => (
     <SEO title="Home" />
     <BackgroundSection img={data.img.childImageSharp.fluid} title="Coffee Example" styleClass="default-background"/>
     <Info/>
-    <Link to="/about">
-      <button className="btn text-uppercase btn-yellow"> About</button>
-    </Link>
     <Menu items={data.menu}/>
     <Products/>
     <Contact/>
